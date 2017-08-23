@@ -14,6 +14,9 @@
 		BB4D9E821F4D444D005375F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4D9E801F4D444D005375F4 /* LaunchScreen.storyboard */; };
 		BB4D9E8D1F4D444D005375F4 /* VideoSeekExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D9E8C1F4D444D005375F4 /* VideoSeekExampleTests.swift */; };
 		BB4D9E981F4D444D005375F4 /* VideoSeekExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D9E971F4D444D005375F4 /* VideoSeekExampleUITests.swift */; };
+		BBA2CFDE1F4D4D5C00889FA5 /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2CFDD1F4D4D5C00889FA5 /* ThumbnailCell.swift */; };
+		BBA2CFE01F4D4D6700889FA5 /* ThumbnailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA2CFDF1F4D4D6700889FA5 /* ThumbnailCell.xib */; };
+		BBA2CFE21F4D657100889FA5 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA2CFE11F4D657100889FA5 /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		BB4D9E931F4D444D005375F4 /* VideoSeekExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoSeekExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4D9E971F4D444D005375F4 /* VideoSeekExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSeekExampleUITests.swift; sourceTree = "<group>"; };
 		BB4D9E991F4D444D005375F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBA2CFDD1F4D4D5C00889FA5 /* ThumbnailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailCell.swift; sourceTree = "<group>"; };
+		BBA2CFDF1F4D4D6700889FA5 /* ThumbnailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThumbnailCell.xib; sourceTree = "<group>"; };
+		BBA2CFE11F4D657100889FA5 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				BB4D9E771F4D444D005375F4 /* AppDelegate.swift */,
 				BB4D9E791F4D444D005375F4 /* ViewController.swift */,
 				BB4D9E7B1F4D444D005375F4 /* Main.storyboard */,
+				BBA2CFDD1F4D4D5C00889FA5 /* ThumbnailCell.swift */,
+				BBA2CFDF1F4D4D6700889FA5 /* ThumbnailCell.xib */,
+				BBA2CFE11F4D657100889FA5 /* PlayerView.swift */,
 				BB4D9E7E1F4D444D005375F4 /* Assets.xcassets */,
 				BB4D9E801F4D444D005375F4 /* LaunchScreen.storyboard */,
 				BB4D9E831F4D444D005375F4 /* Info.plist */,
@@ -237,6 +246,7 @@
 			files = (
 				BB4D9E821F4D444D005375F4 /* LaunchScreen.storyboard in Resources */,
 				BB4D9E7F1F4D444D005375F4 /* Assets.xcassets in Resources */,
+				BBA2CFE01F4D4D6700889FA5 /* ThumbnailCell.xib in Resources */,
 				BB4D9E7D1F4D444D005375F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA2CFDE1F4D4D5C00889FA5 /* ThumbnailCell.swift in Sources */,
 				BB4D9E7A1F4D444D005375F4 /* ViewController.swift in Sources */,
 				BB4D9E781F4D444D005375F4 /* AppDelegate.swift in Sources */,
+				BBA2CFE21F4D657100889FA5 /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +528,7 @@
 				BB4D9E9E1F4D444D005375F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB4D9E9F1F4D444D005375F4 /* Build configuration list for PBXNativeTarget "VideoSeekExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				BB4D9EA11F4D444D005375F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB4D9EA21F4D444D005375F4 /* Build configuration list for PBXNativeTarget "VideoSeekExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				BB4D9EA41F4D444D005375F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
